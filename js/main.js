@@ -640,10 +640,10 @@
   }
 
   /* ---------------------------------------------------------
-     8 · Countdown  ·  28 Nov 2026, 10:30 IST
+     8 · Countdown  ·  28 Nov 2026, 14:30 IST (2:30 PM)
      --------------------------------------------------------- */
   (function countdown() {
-    var target = new Date('2026-11-28T10:30:00+05:30').getTime();
+    var target = new Date('2026-11-28T14:30:00+05:30').getTime();
     var d = document.getElementById('cdD'),
         h = document.getElementById('cdH'),
         m = document.getElementById('cdM'),
